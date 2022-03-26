@@ -6,10 +6,8 @@ letters = ["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "-", "+", "=", "_",
 # use * operator when printing to do all at once
 
 
-#how many letters in password
-numberletters = input("How many letters do you want in your password? Enter here >:) :")
-#converts into int
-numberletters = int(numberletters)
+#how many letters in password + converts to int
+numberletters = int(input("How many letters do you want in your password? Enter here >:) :"))
 
 time.sleep(1)
 
